@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename='testing_new/'>
+  <BrowserRouter basename='testing_new/'>
       <Routes>
         <Route path="/" element={<Login />}/>
         <Route path="/profile" element={<Profile />}/>
@@ -24,7 +24,7 @@ root.render(
         <Route path="/profile" element={<Profile/>} />
 
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function
