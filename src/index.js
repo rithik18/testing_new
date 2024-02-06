@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <HashRouter basename='testing_new/'>
       <Routes>
         <Route path="/" element={<Login />}/>
         <Route path="/profile" element={<Profile />}/>
