@@ -41,5 +41,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "homepage":"https://rithik18.github.io/testing_new/"
 }
