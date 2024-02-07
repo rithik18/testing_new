@@ -14,6 +14,10 @@ const Employee = () => {
   const n = useNavigate();
   const handleLogout=()=>{
     localStorage.setItem('auth',"false")
+    localStorage.setItem("accessToken", "");
+      localStorage.setItem("refreshToken", "");
+      localStorage.setItem("userName", "");
+      localStorage.setItem("password", "");
       n('/')
 
   }
